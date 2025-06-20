@@ -5,7 +5,7 @@ import jakarta.servlet.ServletRequestEvent;
 import jakarta.servlet.ServletRequestListener;
 import jakarta.servlet.annotation.WebListener;
 
-@WebListener()
+
 public class HelloListener implements ServletRequestListener {
 
     @Override

@@ -13,7 +13,7 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.annotation.WebServlet;
 
 
-@WebFilter(urlPatterns = {"/servlet"})
+
 public class HelloFilter implements Filter{
 
     @Override
